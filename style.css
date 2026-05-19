@@ -52,7 +52,7 @@ header{
   width: 100%;
   background-color:#E4E4E4;
   position: fixed;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .overlay{
@@ -89,4 +89,17 @@ header p::after{
 
 header p:hover::after{
   width: 100%;
+}
+
+.overlay-container .text-container{
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top:20%;
+  left:35%;
+  font-size: 70px;
+  font-family: "GT Pressura Regular";
+  text-align: center;
 }
